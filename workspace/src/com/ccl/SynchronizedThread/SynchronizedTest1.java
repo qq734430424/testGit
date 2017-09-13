@@ -5,6 +5,9 @@ package com.ccl.SynchronizedThread;
 public class SynchronizedTest1 {
     public static void main(String[] args) {
         new Thread(()-> System.out.println("Hello~")).start();
+
+
+        System.out.println("show some changes");
     }
 
 }
